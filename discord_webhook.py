@@ -1,8 +1,6 @@
 from discord_webhooks import DiscordWebhooks
 
-#Put your discord webhook url here.
-# IMPORTANT : If you're hosting on pythonanywhere, use discordapp.com instead of discord.com in the URL
-WEBHOOK_URL = 'https://discordapp.com/api/webhooks/.....'
+WEBHOOK_URL = 'https://discordapvhfevbuvwhrb (webhook here
 
 
 def send_msg(username, follower_change, followers, unfollowers,
@@ -25,10 +23,10 @@ def send_msg(username, follower_change, followers, unfollowers,
     webhook.set_content(title='Report for %s' % (time),
                         description="Here's your report with :heart:")
 
-    # Attaches a footer
-    webhook.set_footer(text='-- Teja Swaroop')
+   
+    webhook.set_footer(text='-- Navaneethan')
 
-    # Appends a field
+
     webhook.add_field(name='Username', value=username)
     webhook.add_field(name='Total follower change', value=follower_change)
 
