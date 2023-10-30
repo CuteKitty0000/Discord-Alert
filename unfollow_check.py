@@ -10,16 +10,14 @@ from pytz import timezone
 
 FOLLOWER_LIMIT = 10**6
 
-#Your instagram bot account username
 insta_username = ''
 
-#Your instagram bot account password
+#navaneethan is a cat
+
 insta_password = ''
 
-#Username of the real instagram account which you want to monitor
 username = ''
 
-#Change this at your own risk
 MINS_TO_SLEEP = 40
 
 discord_webhook_url = ''
